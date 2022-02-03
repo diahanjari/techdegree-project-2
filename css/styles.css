@@ -16,6 +16,7 @@ ul {
 }
 
 nav,
+.description,
 .primary,
 .secondary,
 .tertiary,
@@ -91,18 +92,16 @@ h2,
 }
 
 .description {
-    font-family: 'Overpass', sans-serif;
-    font-weight: 400;
     font-size: 1.5em;
-    letter-spacing: .05em;
     padding: 25px 10px;
     text-align: center;
 }
 
 .primary,
 .secondary,
-.tertiary {
-    font-size: 1.5em;
+.tertiary,
+.top-nav {
+    font-size: 1.2em;
     text-align: center;
     padding: 25px;
 }
@@ -194,7 +193,9 @@ footer {
 }
 
 @media (min-width: 1024px) {
-    body{
+    body,
+    footer,
+    .tertiary {
         background-color: #E0F8D5;
     }
 
